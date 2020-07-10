@@ -7,9 +7,8 @@ class WorldTime
   String location;
   String urlend;
   String flag;
-  String time;
   bool isday;
-
+  String time;
   WorldTime({this.location,this.urlend,this.flag});
 
   void getdata () async

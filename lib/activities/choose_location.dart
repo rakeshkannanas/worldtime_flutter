@@ -9,7 +9,7 @@ class ChooseLocation extends StatefulWidget {
 class _ChooseLocationState extends State<ChooseLocation> {
   int count =0;
   List<WorldTime> locations = [
-    WorldTime(location: 'Chennai',urlend: 'Asia/Kolkata',flag: 'https://cdn.countryflags.com/thumbs/india/flag-400.png'),
+   // WorldTime(location: 'Chennai',urlend: 'Asia/Kolkata',flag: 'https://cdn.countryflags.com/thumbs/india/flag-400.png'),
     WorldTime(urlend: 'Europe/London', location: 'London', flag: 'https://github.com/iamshaunjp/flutter-beginners-tutorial/blob/lesson-34/world_time_app/assets/uk.png?raw=true'),
     WorldTime(urlend: 'Europe/Berlin', location: 'Athens', flag: 'https://raw.githubusercontent.com/iamshaunjp/flutter-beginners-tutorial/lesson-34/world_time_app/assets/greece.png'),
     WorldTime(urlend: 'Africa/Cairo', location: 'Cairo', flag: 'https://raw.githubusercontent.com/iamshaunjp/flutter-beginners-tutorial/lesson-34/world_time_app/assets/egypt.png'),
